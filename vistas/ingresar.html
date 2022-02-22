@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/estilos.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body class="contacto--font">
+        <section class="showcase">
+            <header>
+                <h2 class="logo">Yoga Florece</h2>
+                <div class="toggle"></div>
+            </header>
+            <video src="../img/video1.mp4" muted loop></video>
+            <div class="overlay"></div>
+        <video src="../img/video1.mp4" muted loop></video>
+        <form action="" class="formm">
+            <h2 class="form__title">Incia sesión</h2>
+            <p class="form__paragraph">Aun no tienes una cuenta? <a href="./registro.html" class="form__link">Entra aquí</a></p>
+            <div class="form__container">
+                    <div class="form__group">
+                        <input type="text" id="name" class="form__input" placeholder=" ">
+                        <label for="name" class="form__label">Nombre:</label>
+                        <span class="form__line"></span>
+                    </div>
+                <div class="form__container">
+                    <div class="form__group">
+                        <input type="text" id="user" class="form__input" placeholder=" ">
+                        <label for="user" class="form__label">Usuario:</label>
+                        <span class="form__line"></span>
+                    </div>
+                </div>
+                <div class="form__container">
+                    <div class="form__group">
+                        <input type="password" id="password" class="form__input" placeholder=" ">
+                        <label for="password" class="form__label">Contraseña:</label>
+                        <span class="form__line"></span>
+                    </div>
+                </div>
+                <input type="submit" class="form__submit" value="Entrar">
+            </div>
+        </form>
+    </div>
+    <ul class="social">
+        <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png" alt=""></a></li>
+        <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png" alt=""></a></li>
+        <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt=""></a></li>
+    </ul> 
+</section>
+<div class="menu">
+    <ul>
+        <li><a href="../index.html">INICIO</a></li>
+        <li><a href="./nosotros.html">NOSOTROS</a></li>
+        <li><a href="./cursos.html">CURSOS</a></li>
+        <li><a href="./clases.html">CLASES</a></li>
+        <li><a href="./ingresar.html">INGRESAR</a></li>
+    </ul>
+</div>
+<script>
+    const menuToggle = document.querySelector ('.toggle')
+    const showcase = document.querySelector ('.showcase')
+    menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active')
+    showcase.classList.toggle('active')})
+    </script>
+</body>
+</html>
