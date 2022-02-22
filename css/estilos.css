@@ -367,6 +367,15 @@ p {
         padding: 10px;
         margin: 100px 0px;
     }
+    .formm {
+        top: 20px;
+        padding: 1em 3em;
+        
+    }
+    .form__container {
+      
+        gap: 1em;
+    }
     
 }
 
@@ -374,7 +383,13 @@ p {
 @media (max-width: 425px){
     .showcase,
     .showcase header {
-        padding: 40px;
+        padding: 40px 0px;
+    }
+
+    .formm {
+        top: 20px;
+        padding: 1em 3em;
+        margin: 3em;
     }
    
     .text h2 {
