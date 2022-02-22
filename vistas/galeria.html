@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Document</title>
+</head>
+ <body>
+          <section class="showcase">
+            <header>
+                <h2 class="logo">Yoga Florece</h2>
+                <div class="toggle"></div>
+            </header>
+            <video src="../img/video1.mp4" muted loop></video>
+            <div class="overlay"></div> 
+            <div class="tex">
+                <div class="titulo--galeria">
+                    <h3>Galeria</h3>
+                </div>
+                
+               <div class="galeria">
+                   
+                    <div class="galeria--item">
+                        <img class="galeria--img" src="../img/galeria2.jpg" width="568" alt=""></a>                   
+                    </div>
+                    <div class="galeria--item">
+                        <img class="galeria--img" src="../img/galeria3.jpg" width="568" alt=""></a> 
+                    </div>
+                    <div class="galeria--item">
+                        <img class="galeria--img" src="../img/galeria5.jpg" width="568" alt=""></a>                   
+                    </div>
+                    <div class="galeria--item">
+                        <img class="galeria--img" src="../img/galeria6.jpg" width="568" alt=""></a>                   
+                    </div>
+                    <div class="galeria--item">
+                        <img class="galeria--img" src="../img/galeria8.jpg" width="568" alt=""></a>                   
+                    </div>
+                    <div class="galeria--item">
+                        <img class="galeria--img" src="../img/galeria7.jpg" width="568" alt=""></a>
+                    </div>
+                    <div class="galeria--item">
+                        <img class="galeria--img" src="../img/galeria4.jpg" width="568" alt=""></a>                   
+                    </div>
+                    <div class="galeria--item">
+                        <img class="galeria--img" src="../img/galeria9.jpg" width="568" alt=""></a>                   
+                    </div>
+                    <div class="galeria--item">
+                        <img class="galeria--img" src="../img/galeria10.jpg" width="568" alt=""></a>                   
+                    </div>
+                    <div class="galeria--item">
+                        <img class="galeria--img" src="../img/galeria12.jpg" width="568" alt=""></a>                   
+                    </div>
+               </div>
+             </div> 
+            <ul class="social">
+                <li><a href="http://facebook.com.ar"><img src="https://i.ibb.co/x7P24fL/facebook.png" alt=""></a></li>
+                <li><a href="http://instagram.com"><img src="https://i.ibb.co/ySwtH4B/instagram.png" alt=""></a></li>
+                <li><a href="http://twitter.com"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt=""></a></li>
+            </ul>
+        </section>
+         -->
+        <div class="menu">
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="./nosotros.html">NOSOTROS</a></li>
+                <li><a href="./cursos.html">CURSOS</a></li>
+                <li><a href="./clases.html">CLASES</a></li>
+                <li><a href="./galeria.html">GALERIA</a></li>
+                <li><a href="./ingresar.html">INGRESAR</a></li>
+            </ul>
+        </div>
+        <script>
+            const menuToggle = document.querySelector ('.toggle')
+            const showcase = document.querySelector ('.showcase')
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            })
+        </script>
+</body>
+</html>
